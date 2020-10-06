@@ -7232,22 +7232,24 @@ h3 {
 #mainNav {
   padding-top: 1rem;
   padding-bottom: 1rem;
-  font-family: "SB Heading", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  font-weight: 700; }
+  font-family: 'Roboto Mono', monospace;
+  /*font-family: "SB Heading", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";*/
+  font-weight: 100; }
   #mainNav .navbar-brand {
-    color: #fff; }
+    color: #000000; }
   #mainNav .navbar-nav {
     margin-top: 1rem; }
     #mainNav .navbar-nav li.nav-item a.nav-link {
-      color: #fff; }
+      font-weight: 300;
+      color: #000; }
       #mainNav .navbar-nav li.nav-item a.nav-link:hover {
-        color: #ffffff; }
+        color: #212121; }
       #mainNav .navbar-nav li.nav-item a.nav-link:active, #mainNav .navbar-nav li.nav-item a.nav-link:focus {
         color: #fff; }
       #mainNav .navbar-nav li.nav-item a.nav-link.active {
         color: #ffffff; }
   #mainNav .navbar-toggler {
-    font-size: 80%;
+    font-size: 100%;
     padding: 0.8rem; }
 
 @media (min-width: 992px) {
@@ -7281,7 +7283,7 @@ h3 {
   .masthead .masthead-subheading {
     font-size: 1.25rem; }
   .masthead .masthead-avatar {
-    width: 15rem; }
+    width: 25rem; }
 
 @media (min-width: 992px) {
   .masthead {
