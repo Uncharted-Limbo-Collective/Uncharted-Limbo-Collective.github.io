@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="032a3a04-32b5-40fb-bcc0-8b00d9ebdb7d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/assets/img/icons/instagram_new1600.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/Official_Logo_02_copy_transparent.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/mail/contact_me.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/mail/contact_me.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
@@ -34,6 +37,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -46,7 +50,8 @@
       <option name="presentableId" value="Default" />
       <updated>1601978278872</updated>
       <workItem from="1601978280334" duration="1089000" />
-      <workItem from="1601979400137" duration="4376000" />
+      <workItem from="1601979400137" duration="6011000" />
+      <workItem from="1602081197002" duration="3859000" />
     </task>
     <servers />
   </component>
@@ -63,6 +68,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
