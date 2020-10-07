@@ -3217,11 +3217,36 @@ input[type="button"].btn-block {
   content: "";
   background: no-repeat center center;
   background-size: 100% 100%; }
+/*
+  .fa{
+    padding: 5px;
+    font-size: 30px;
+    width: 100px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
 
-.icon-instagram{
-  width: 2em;
-  height: 2em;
-}
+  .fa.hover{
+    opacity: 0.7;
+  }
+
+  .fa-instagram{
+    background: #125688;
+    color: white;
+  }*/
+
+  .icon-instagram{
+    width: 1.5em;
+    height: 1.5em;
+    position: relative;
+    top: 50px;
+  }
+
+  .icon-instagram:hover{
+    opacity: 0.5;
+    cursor: pointer;
+  }
 
 @media (max-width: 575.98px) {
   .navbar-expand-sm > .container,
