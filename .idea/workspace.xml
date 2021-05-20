@@ -2,20 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="032a3a04-32b5-40fb-bcc0-8b00d9ebdb7d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/img/portfolio/CB1_hero_medium.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/portfolio/CB1_01_medium.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/portfolio/CB1_02_medium.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/portfolio/CB1_03_medium.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/portfolio/CB1_04_medium.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/portfolio/CB1_05_medium.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/portfolio/CB1_06_medium.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/ulc.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/portfolio/cabin.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/portfolio/cake.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/portfolio/circus.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/portfolio/game.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/portfolio/safe.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/portfolio/submarine.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/scripts.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/scripts.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -42,6 +50,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -63,7 +72,7 @@
       <workItem from="1601978280334" duration="1089000" />
       <workItem from="1601979400137" duration="6011000" />
       <workItem from="1602081197002" duration="3859000" />
-      <workItem from="1621549669316" duration="1370000" />
+      <workItem from="1621549669316" duration="5439000" />
     </task>
     <servers />
   </component>
