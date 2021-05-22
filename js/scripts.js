@@ -70,9 +70,15 @@
       });
     });
 
+
+
     // Stop youtube video when modal closes
         $("#portfolioModal1").on('hidden.bs.modal', function (e) {
             $("#portfolioModal1 iframe").attr("src", $("#portfolioModal1 iframe").attr("src"));
+        });
+
+        $("#experimentsModal1").on('hidden.bs.modal', function (e) {
+            $("#experimentsModal1 iframe").attr("src", $("#experimentsModal1 iframe").attr("src"));
         });
 
   })(jQuery); // End of use strict
