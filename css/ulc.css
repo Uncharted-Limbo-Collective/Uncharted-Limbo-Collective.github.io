@@ -1,7 +1,13 @@
-.video-container {
+.video-container-hd{
     position: relative;
     width: 100%;
     padding-bottom: 56.25%;
+}
+
+.video-container-square{
+    position: relative;
+    width: 100%;
+    padding-bottom: 100%;
 }
 
 .video {
