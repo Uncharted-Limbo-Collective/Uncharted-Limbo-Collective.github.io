@@ -1,9 +1,10 @@
 (function ($) {
     "use strict"; // Start of use strict
 
-// any modals with embedded <iframe> we can assume need reset
-// <https://stackoverflow.com/a/52315492>
-//
+    // Stop videos when modal closes.
+    // BEST ANSWER ON STACK OVERFLOW
+    // https://stackoverflow.com/a/66014515/5877570
+    // any modals with embedded <iframe> we can assume need reset
     $('body').on('hide.bs.modal', '.modal', function () {
         const $modal = $(this);
         // return early if there were no embedded YouTube videos
