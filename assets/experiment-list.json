@@ -1,0 +1,12 @@
+{
+  "reaction-diffusion": {
+    "name": "Reaction Diffusion",
+    "longName": "Reaction Diffusion",
+    "artist": "Eleana Polychronaki",
+    "thumbnail": "assets/img/experiments/thumbnails/eleana_reaction-diffusion.png",
+    "video": "https://player.vimeo.com/video/419063601?color=ffffff&byline=0&portrait=0",
+    "squareVideo": true,
+    "text": [],
+    "images": []
+  }
+}

@@ -48,3 +48,10 @@
 {
     font-weight: 500;
 }
+
+.ulc-col-md-6
+{
+    position: relative;
+    width: 100%;
+    padding: 1px ;
+}
