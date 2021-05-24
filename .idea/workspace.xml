@@ -2,40 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="032a3a04-32b5-40fb-bcc0-8b00d9ebdb7d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/img/experiments/thumbnails/slov-16.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/portfolio/cb1/cb1_01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/portfolio/cb1/cb1_02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/portfolio/cb1/cb1_03.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/portfolio/cb1/cb1_04.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/portfolio/cb1/cb1_05.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/portfolio/cb1/cb1_06.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/portfolio/lcf/lcf_01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/portfolio/lcf/lcf_02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/portfolio/lcf/lcf_03.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/portfolio/lcf/lcf_04.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/portfolio/lcf/lcf_05.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/portfolio/lcf/lcf_06.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/portfolio/lcf/lcf_07.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/portfolio/lcf/lcf_08.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/portfolio/lcf/lcf_09.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/portfolio/lcf/lcf_10.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/portfolio/lcf/lcf_11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/experiments/thumbnails/slov-12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/portfolio/thumbnails/horizonte.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/experiment-list.json" beforeDir="false" afterPath="$PROJECT_DIR$/assets/experiment-list.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/portfolio/CB1_01_medium.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/portfolio/CB1_02_medium.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/portfolio/CB1_03_medium.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/portfolio/CB1_04_medium.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/portfolio/CB1_05_medium.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/portfolio/CB1_06_medium.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/portfolio/CB1_hero_medium-square.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/portfolio/thumbnails/CB1_hero_medium-square.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/portfolio/CB1_hero_medium.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/portfolio/thumbnails/CB1_hero_medium.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/portfolio/LCF_hero.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/portfolio/thumbnails/LCF_hero.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/portfolio/LCF_hero_medium_square.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/portfolio/thumbnails/LCF_hero_medium_square.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/portfolio/LCF_hero_square.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/portfolio/thumbnails/LCF_hero_square.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/project-list.json" beforeDir="false" afterPath="$PROJECT_DIR$/assets/project-list.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/ulc.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/ulc.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/generate-projects.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/generate-projects.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
