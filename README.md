@@ -6,11 +6,11 @@ Website of Uncharted Limbo Collective. See it here: https://uncharted-limbo-coll
 ### I have an experiment I want to add to our webpage. How?
 * Go to this [.json file](https://github.com/Uncharted-Limbo-Collective/Uncharted-Limbo-Collective.github.io/blob/main/assets/experiment-list.json)
 * Add a new entry. An entry looks like this:
-```json
- "secret-life-of-voxels-16": {
-    "name": "SLoV #16",
-    "longName": "Secret Life of Voxels #16",
-    "artist": "George Adamopoulos",
+```javascript
+ "my-new-project": {
+    "name": "My New Project",
+    "longName": "Epic Projects I: My New Project",
+    "artist": "Great Artist",
     "thumbnail": "assets/img/experiments/thumbnails/slov-16.png",
     "video": "https://player.vimeo.com/video/328643073?color=ffffff&byline=0&portrait=0",
     "squareVideo": false,
