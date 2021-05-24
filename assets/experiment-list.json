@@ -22,5 +22,19 @@
       }
     ],
     "images": []
+  },
+  "secret-life-of-voxels-12": {
+    "name": "SLoV #12",
+    "longName": "Secret Life of Voxels #12",
+    "artist": "George Adamopoulos",
+    "thumbnail": "assets/img/experiments/thumbnails/slov-12.png",
+    "video": "https://player.vimeo.com/video/243477829?color=ffffff&byline=0&portrait=0",
+    "squareVideo": false,
+    "text": [
+      {
+        "paragraph" :"Filming the growth process of a cluster of pink polyhedra (specimen #12)."
+      }
+    ],
+    "images": []
   }
 }

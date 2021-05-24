@@ -86,42 +86,13 @@
     "name": "Butterfly Effect",
     "longName": "Horizonte: Butterfly Effect",
     "artist": "",
-    "thumbnail": "assets/img/portfolio/thumbnails/CB1_hero_medium-square.png",
+    "thumbnail": "assets/img/portfolio/thumbnails/horizonte.png",
     "video": "https://www.youtube-nocookie.com/embed/oDiSvyOZye4",
     "squareVideo": false,
     "text": [
-      {
-        "paragraph": "Strange Attractor is the first film in the Chaotic Body triptych, conceived & led by choreographer Alexander Whitley. Chaotic Body investigates the very nature of Dance in a socially distanced world, taking inspiration from chaos theory, the dynamic processes it describes and the associated geometric patterns found in nature."
-      },
-      {
-        "paragraph": "In collaboration with dancer Tia Hockney and composer Qasim Naqvi, UL Collective explored the artistic manifestations of chaotic principles at the intersection of digitally captured choreography, analog synthesized music and particle simulations."
-      },
-      {
-        "paragraph": "The singular figure of Strange Attractor, traverses her linear timeline, and simultaneously interacts with multiple echoes of both her past and future self. Her movements trigger immediate reactions to the digital matter surrounding her, gradually resulting in a blossoming trail of her past, fragile and sensitive to the initial conditions.\n                                        Past, Present and Future of the dancer's movements, all get imprinted into a 4-dimensional field, an invisible dense stage of forces that drive the particles' chaotic dance."
-      },
-      {
-        "paragraph": "A deep stack of bespoke algorithms, modulate and disturb the dancer's position & velocity fields in real-time using the nervous musical score; the resulting microscopic perturbations of the particles' trajectories finally aggregate into a smooth macroscopic nebula, heavily inspired by the scientific plotting of strange attractor equations."
-      }
     ],
     "images": [
-      {
-        "src": "assets/img/portfolio/cb1/cb1_01.png"
-      },
-      {
-        "src": "assets/img/portfolio/cb1/cb1_02.png"
-      },
-      {
-        "src": "assets/img/portfolio/cb1/cb1_03.png"
-      },
-      {
-        "src": "assets/img/portfolio/cb1/cb1_04.png"
-      },
-      {
-        "src": "assets/img/portfolio/cb1/cb1_05.png"
-      },
-      {
-        "src": "assets/img/portfolio/cb1/cb1_06.png"
-      }
+
     ]
   }
 }
