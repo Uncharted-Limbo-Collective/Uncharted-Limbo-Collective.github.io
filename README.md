@@ -1,5 +1,5 @@
 # Uncharted-Limbo-Collective.github.io
-Website of Uncharted Limbo Collective. See it here: https://uncharted-limbo-collective.github.io/
+Website of Uncharted Limbo Collective. See it here: https://unchsarted-limbo-collective.github.io/
 
 ## How To
 
@@ -36,3 +36,4 @@ Website of Uncharted Limbo Collective. See it here: https://uncharted-limbo-coll
 * If you don't have images or text to add, set `"text":[]` and/or `"images":[]`, or omit them entirely.
 * If you don't have video, please consider making one :) 
 * Thumbnails should be ideally 768 x 768 square images.
+* Please put thumbnails for experiments in the `assets/img/experiments/thumbnails/` folder, just to keep thigs clean.
