@@ -3208,7 +3208,7 @@ input[type="button"].btn-block {
   line-height: 1;
   background-color: transparent;
   border: 0.125rem solid transparent;
-  border-radius: 0.5rem; }
+  border-radius: 2rem; }
   .navbar-toggler:hover, .navbar-toggler:focus {
     text-decoration: none; }
 
