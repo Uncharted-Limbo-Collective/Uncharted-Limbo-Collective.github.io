@@ -24,10 +24,10 @@ Website of Uncharted Limbo Collective. See it here: https://uncharted-limbo-coll
     ],
     "images": [
       {
-      "src"="assets/img/some-image.png"
+      "src":"assets/img/some-image.png"
       },
       {
-      "src"="assets/img/some-other-image.png"
+      "src":"assets/img/some-other-image.png"
       }
     ]
   },
