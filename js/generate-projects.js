@@ -127,7 +127,7 @@ function addModal(node, project, name)
 
     let subtitle = document.createElement("h3")
     subtitle.setAttribute("class", "portfolio-modal-title text-secondary mb-0")
-    subtitle.setAttribute("style", "font-size: 20px")
+    subtitle.setAttribute("style", "font-size: 20px;")
     if (project["artist"] !=="")
     {
         subtitle.innerText ="By " + project["artist"]
