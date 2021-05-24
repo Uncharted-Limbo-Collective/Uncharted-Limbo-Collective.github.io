@@ -8,5 +8,19 @@
     "squareVideo": true,
     "text": [],
     "images": []
+  },
+  "secret-life-of-voxels-16": {
+    "name": "SLoV #16",
+    "longName": "Secret Life of Voxels #16",
+    "artist": "George Adamopoulos",
+    "thumbnail": "assets/img/experiments/thumbnails/slov-16.png",
+    "video": "https://player.vimeo.com/video/328643073?color=ffffff&byline=0&portrait=0",
+    "squareVideo": false,
+    "text": [
+      {
+        "paragraph" :"Volumetric Reaction Diffusion inside a 3d-scanned model of a miniature lion."
+      }
+    ],
+    "images": []
   }
 }

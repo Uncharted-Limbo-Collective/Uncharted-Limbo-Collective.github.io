@@ -159,6 +159,7 @@ function addModal(node, project, name)
     column.appendChild(subtitle);
     column.appendChild(videoContainer)
 
+
     createImageCarousel(column,name,project["images"])
 
     composeText(column,name,project["text"])
@@ -199,7 +200,8 @@ function createImageCarousel(node,name,images)
 {
     if (typeof images === 'undefined')
         return;
-
+    if (images.length === 0)
+        return;
     let tree = document.createDocumentFragment();
 
     let id = "carousel_"+name;
@@ -273,6 +275,9 @@ function createImageCarousel(node,name,images)
 function composeText(node,name,texts)
 {
     if (typeof texts === 'undefined')
+        return;
+
+    if ( texts.length ===  0)
         return;
 
     let tree = document.createDocumentFragment();

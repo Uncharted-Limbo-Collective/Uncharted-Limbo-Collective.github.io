@@ -3,7 +3,7 @@
     "name": "Strange Attractor",
     "longName": "Chaotic Body I: Strange Attractor",
     "artist": "",
-    "thumbnail": "assets/img/portfolio/CB1_hero_medium-square.png",
+    "thumbnail": "assets/img/portfolio/thumbnails/CB1_hero_medium-square.png",
     "video": "https://www.youtube-nocookie.com/embed/oDiSvyOZye4",
     "squareVideo": false,
     "text": [
@@ -22,22 +22,22 @@
     ],
     "images": [
       {
-        "src": "assets/img/portfolio/CB1_01_medium.png"
+        "src": "assets/img/portfolio/cb1/cb1_01.png"
       },
       {
-        "src": "assets/img/portfolio/CB1_02_medium.png"
+        "src": "assets/img/portfolio/cb1/cb1_02.png"
       },
       {
-        "src": "assets/img/portfolio/CB1_03_medium.png"
+        "src": "assets/img/portfolio/cb1/cb1_03.png"
       },
       {
-        "src": "assets/img/portfolio/CB1_04_medium.png"
+        "src": "assets/img/portfolio/cb1/cb1_04.png"
       },
       {
-        "src": "assets/img/portfolio/CB1_05_medium.png"
+        "src": "assets/img/portfolio/cb1/cb1_05.png"
       },
       {
-        "src": "assets/img/portfolio/CB1_06_medium.png"
+        "src": "assets/img/portfolio/cb1/cb1_06.png"
       }
     ]
   },
@@ -45,28 +45,82 @@
     "name": "LCFMA21",
     "longName": "London College of Fashion MA Show 2021",
     "artist": "",
-    "thumbnail": "assets/img/portfolio/LCF_hero_medium_square.png",
-    "video": "https://www.youtube-nocookie.com/embed/oDiSvyOZye4",
+    "thumbnail": "assets/img/portfolio/thumbnails/LCF_hero_medium_square.png",
+    "video": "https://www.youtube-nocookie.com/embed/T_nN7KPdRcQ",
     "squareVideo": false,
     "text": [],
     "images": [
       {
-        "src": "assets/img/portfolio/CB1_01_medium.png"
+        "src": "assets/img/portfolio/lcf/lcf_01.png"
       },
       {
-        "src": "assets/img/portfolio/CB1_02_medium.png"
+        "src": "assets/img/portfolio/lcf/lcf_02.png"
       },
       {
-        "src": "assets/img/portfolio/CB1_03_medium.png"
+        "src": "assets/img/portfolio/lcf/lcf_03.png"
       },
       {
-        "src": "assets/img/portfolio/CB1_04_medium.png"
+        "src": "assets/img/portfolio/lcf/lcf_04.png"
       },
       {
-        "src": "assets/img/portfolio/CB1_05_medium.png"
+        "src": "assets/img/portfolio/lcf/lcf_05.png"
       },
       {
-        "src": "assets/img/portfolio/CB1_06_medium.png"
+        "src": "assets/img/portfolio/lcf/lcf_06.png"
+      },
+      {
+        "src": "assets/img/portfolio/lcf/lcf_07.png"
+      },
+      {
+        "src": "assets/img/portfolio/lcf/lcf_08.png"
+      },
+      {
+        "src": "assets/img/portfolio/lcf/lcf_09.png"
+      },
+      {
+        "src": "assets/img/portfolio/lcf/lcf_10.png"
+      }
+    ]
+  },
+  "horizonte": {
+    "name": "Butterfly Effect",
+    "longName": "Horizonte: Butterfly Effect",
+    "artist": "",
+    "thumbnail": "assets/img/portfolio/thumbnails/CB1_hero_medium-square.png",
+    "video": "https://www.youtube-nocookie.com/embed/oDiSvyOZye4",
+    "squareVideo": false,
+    "text": [
+      {
+        "paragraph": "Strange Attractor is the first film in the Chaotic Body triptych, conceived & led by choreographer Alexander Whitley. Chaotic Body investigates the very nature of Dance in a socially distanced world, taking inspiration from chaos theory, the dynamic processes it describes and the associated geometric patterns found in nature."
+      },
+      {
+        "paragraph": "In collaboration with dancer Tia Hockney and composer Qasim Naqvi, UL Collective explored the artistic manifestations of chaotic principles at the intersection of digitally captured choreography, analog synthesized music and particle simulations."
+      },
+      {
+        "paragraph": "The singular figure of Strange Attractor, traverses her linear timeline, and simultaneously interacts with multiple echoes of both her past and future self. Her movements trigger immediate reactions to the digital matter surrounding her, gradually resulting in a blossoming trail of her past, fragile and sensitive to the initial conditions.\n                                        Past, Present and Future of the dancer's movements, all get imprinted into a 4-dimensional field, an invisible dense stage of forces that drive the particles' chaotic dance."
+      },
+      {
+        "paragraph": "A deep stack of bespoke algorithms, modulate and disturb the dancer's position & velocity fields in real-time using the nervous musical score; the resulting microscopic perturbations of the particles' trajectories finally aggregate into a smooth macroscopic nebula, heavily inspired by the scientific plotting of strange attractor equations."
+      }
+    ],
+    "images": [
+      {
+        "src": "assets/img/portfolio/cb1/cb1_01.png"
+      },
+      {
+        "src": "assets/img/portfolio/cb1/cb1_02.png"
+      },
+      {
+        "src": "assets/img/portfolio/cb1/cb1_03.png"
+      },
+      {
+        "src": "assets/img/portfolio/cb1/cb1_04.png"
+      },
+      {
+        "src": "assets/img/portfolio/cb1/cb1_05.png"
+      },
+      {
+        "src": "assets/img/portfolio/cb1/cb1_06.png"
       }
     ]
   }
