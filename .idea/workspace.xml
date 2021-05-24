@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="032a3a04-32b5-40fb-bcc0-8b00d9ebdb7d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/ulc.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/ulc.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/generate-projects.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/generate-projects.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,6 +15,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
+        <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -38,10 +41,11 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -52,6 +56,17 @@
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\gaada\Documents\Github\ULC\Uncharted-Limbo-Collective.github.io\assets" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\gaada\Documents\Github\ULC\Uncharted-Limbo-Collective.github.io\assets\img\portfolio\thumbnails" />
+      <recent name="C:\Users\gaada\Documents\Github\ULC\Uncharted-Limbo-Collective.github.io\assets\img\portfolio\cb1" />
+      <recent name="C:\Users\gaada\Documents\Github\ULC\Uncharted-Limbo-Collective.github.io\assets" />
+      <recent name="C:\Users\gaada\Documents\Github\ULC\Uncharted-Limbo-Collective.github.io\js" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -64,7 +79,8 @@
       <workItem from="1601978280334" duration="1089000" />
       <workItem from="1601979400137" duration="6011000" />
       <workItem from="1602081197002" duration="3859000" />
-      <workItem from="1621549669316" duration="14482000" />
+      <workItem from="1621549669316" duration="22268000" />
+      <workItem from="1621702926125" duration="20331000" />
     </task>
     <servers />
   </component>

@@ -1,9 +1,18 @@
-.video-container {
+/* https://www.ankursheel.com/blog/full-width-you-tube-video-embed */
+.video-container-hd{
     position: relative;
     width: 100%;
     padding-bottom: 56.25%;
 }
 
+/* https://www.ankursheel.com/blog/full-width-you-tube-video-embed */
+.video-container-square{
+    position: relative;
+    width: 100%;
+    padding-bottom: 100%;
+}
+
+/* https://www.ankursheel.com/blog/full-width-you-tube-video-embed */
 .video {
     position: absolute;
     top: 0;
@@ -33,8 +42,20 @@
 }
 
 .img-thumbnail {
-
     padding: 0px;
-    background-color: #000;
+    background-color: transparent !important;
     border: 0px none black;
+}
+
+.ulc-project-title
+{
+    font-weight: 500;
+    text-align: center !important;
+}
+
+.ulc-col-md-6
+{
+    position: relative;
+    width: 100%;
+    padding: 1px ;
 }
