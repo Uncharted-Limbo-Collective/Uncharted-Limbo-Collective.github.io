@@ -40,8 +40,9 @@
   box-sizing: border-box; }
 
 html {
-  font-family: 'Roboto Mono', monospace;
+ /* font-family: 'Roboto Mono', monospace;*/
   /*font-family: sans-serif;*/
+  font-family: 'Source Sans Pro', sans-serif;
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0); }
@@ -180,7 +181,8 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 
 body {
   margin: 0;
-  font-family: 'Roboto Mono', monospace;
+  font-family: 'Source Sans Pro', sans-serif;
+  /*font-family: 'Roboto Mono', monospace;*/
   /*font-family: "SB Body", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";*/
   font-size: 1rem;
   font-weight: 400;
@@ -529,8 +531,8 @@ mark,
 .img-thumbnail {
   padding: 0.25rem;
   background-color: #fff;
-  border: 0.125rem solid #dee2e6;
-  border-radius: 0.5rem;
+  /*border: 0.125rem solid #dee2e6;*/
+  /*border-radius: 0.5rem;*/
   max-width: 100%;
   height: auto; }
 
@@ -7384,15 +7386,16 @@ h3 {
 #mainNav {
   padding-top: 1rem;
   padding-bottom: 1rem;
-  font-family: 'Roboto Mono', monospace;
+  font-family: 'Source Sans Pro', sans-serif;
+ /* font-family: 'Roboto Mono', monospace;*/
   /*font-family: "SB Heading", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";*/
-  font-weight: 100; }
+  font-weight: 200; }
   #mainNav .navbar-brand {
     color: #000000; }
   #mainNav .navbar-nav {
     margin-top: 1rem; }
     #mainNav .navbar-nav li.nav-item a.nav-link {
-      font-weight: 300;
+      font-weight: 300 !important;
       color: #000; }
       #mainNav .navbar-nav li.nav-item a.nav-link:hover {
         color: #212121; }
@@ -7401,7 +7404,7 @@ h3 {
       #mainNav .navbar-nav li.nav-item a.nav-link.active {
         color: #000000; }
   #mainNav .navbar-toggler {
-    font-size: 100%;
+    font-size: 110%;
     padding: 0.8rem; }
 
 @media (min-width: 992px) {
@@ -7452,7 +7455,7 @@ h3 {
   position: relative;
   display: block;
   max-width: 25rem;
-  border-radius: 0.25rem;
+  border-radius: 0rem;
   overflow: hidden; }
   .portfolio .portfolio-item .portfolio-item-caption {
     position: absolute;
@@ -7534,7 +7537,7 @@ form .row:first-child .floating-label-form-group {
   color: #fff; }
 
 .copyright {
-  background-color: #e6e6e6; }
+  background-color: #000 !important; }
 
 #brandImage {
   height: 2rem; }
