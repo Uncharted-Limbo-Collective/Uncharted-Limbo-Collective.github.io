@@ -1,5 +1,5 @@
 # Uncharted-Limbo-Collective.github.io
-Website of Uncharted Limbo Collective. See it here: https://unchsarted-limbo-collective.github.io/
+Website of Uncharted Limbo Collective. See it here: https://uncharted-limbo-collective.github.io/
 
 ## How To
 
