@@ -37,3 +37,4 @@ Website of Uncharted Limbo Collective. See it here: https://uncharted-limbo-coll
 * If you don't have video, please consider making one :) 
 * Thumbnails should be ideally 768 x 768 square images.
 * Please put thumbnails for experiments in the `assets/img/experiments/thumbnails/` folder, just to keep thigs clean.
+* If your video happens to be square, please set `"squareVideo": true`
