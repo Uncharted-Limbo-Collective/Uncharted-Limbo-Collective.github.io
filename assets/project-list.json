@@ -21,6 +21,9 @@
       }
     ],
     "images": [
+      {
+        "src": "assets/img/portfolio/ant/antibody_1.jpg"
+      }
       
     ]
   },
@@ -28,25 +31,36 @@
     "name": "Inhibition",
     "longName": "Inhibition",
     "artist": "",
-    "thumbnail": "assets/img/portfolio/thumbnails/ANT_hero_medium_square.jpg",
-    "video": "assets/img/portfolio/ant/antibody_1.jpg",
+    "thumbnail": "assets/img/portfolio/thumbnails/INH_hero_medium_square.jpg",
+    "video": "assets/img/portfolio/inh/inhibition_1.jpg",
     "squareVideo": false,
     "text": [
       {
-        "paragraph": "This new collaboartion with Alexander Whitley Dance Company explores the form of the human body and technological drive to transcend it. "
+        "paragraph": "Collaborating with UK-based artists Zoe Diakaki and Marina Eleni Mersiadou who were inspired by A B Casares’ novel The Invention of Morel, we developed an immersive multi-user experience. "
       },
       {
-        "paragraph": "Three performers, isolated yet connected digitally, explore tensions between mind and body, containment and connection, and the desire to be unique as well as part of something larger than ourselves. "
+        "paragraph": "Inhibition challenges you to rethink your subjective reality as you journey with two other audience members on a quest around an imaginary island.  "
       },
       {
-        "paragraph": "For this project we developed a custom system of interactive visual effects that are generated in real-time in response to motion capture data coming from the three dancers. We developped a broad visual language that would accompany the journey of the human body into its trancendance."
+        "paragraph": "This project incorporates biofeedback, skeleton tracking and the recreation of the landscape and atmosphere of the deserted island in Casares' novel.  An immersive and performative experience unfolds in three scenes, following the trajectory of the novel’s protagonist."
       },
       {
         "paragraph": "TBC"
       }
     ],
     "images": [
-      
+      {
+        "src": "assets/img/portfolio/inh/inhibition_1.jpg"
+      },
+      {
+        "src": "assets/img/portfolio/inh/inhibition_2.jpg"
+      },
+      {
+        "src": "assets/img/portfolio/inh/inhibition_3.jpg"
+      },
+      {
+        "src": "assets/img/portfolio/inh/inhibition_4.jpg"
+      }
     ]
   },
     "liminal-phase": {
