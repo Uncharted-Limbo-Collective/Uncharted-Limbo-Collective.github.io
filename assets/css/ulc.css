@@ -158,6 +158,13 @@ white-space: nowrap; }
 
 }
 
+.navbar-brand
+{
+    margin-left: 16px; 
+    margin-top: auto; 
+    margin-bottom: auto;
+}
+
 @media only screen and (max-width: 600px) 
 {
     .navbar-brand{
@@ -189,7 +196,9 @@ a.bg-primary:focus, a.bg-primary:hover, button.bg-primary:focus, button.bg-prima
   .navbar-toggler:focus {
     box-shadow: 0 0 0 0;
   }
-  
+
   body {
-    overflow-x: hidde !important; /* Hide horizontal scrollbar */
+    overflow: hidden;
+    overflow-y: auto;
+    overflow-x: hidden !important; /* Hide horizontal scrollbar */
   }
