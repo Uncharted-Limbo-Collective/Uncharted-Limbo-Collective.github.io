@@ -386,6 +386,14 @@ h7{
     padding-left: 0;
   }
 }
+
+@media (min-width: 450px) {
+  .custom-navbar > .container {
+    padding-right: 0;
+    padding-left: 0;
+    max-width: 400px;
+  }
+}
 .custom-navbar .navbar-brand {
   font-size: 1.7rem;
 }
