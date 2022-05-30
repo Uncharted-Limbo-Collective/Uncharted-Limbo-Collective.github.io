@@ -40,6 +40,10 @@ h7{
   padding: 7rem 0;
 }
 
+.link-1:hover {
+  color: white !important;
+}
+
 
 
 .filters a {
