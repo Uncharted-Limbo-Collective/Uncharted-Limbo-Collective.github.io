@@ -158,6 +158,34 @@ white-space: nowrap; }
 
 }
 
+@media only screen and (max-width: 600px) 
+{
+    .page-title{
+        font-size: 1em !important;
+    }
+} 
 
+@media only screen and (min-width: 600px) 
+{
+    .page-title{
+        font-size: 1.25em !important;
+    }
+} 
 
+.nav-link{
+    text-align: center;
+}
 
+a.bg-primary:focus, a.bg-primary:hover, button.bg-primary:focus, button.bg-primary:hover {
+    background-color: #000000 !important;
+  }
+
+  .fa-bars:hover{
+      color: rgb(255, 255, 255) !important;
+      transition: color 0.3s;
+      transition-timing-function: ease-in-out;
+  }
+
+  .navbar-toggler:focus {
+    box-shadow: 0 0 0 0;
+  }
