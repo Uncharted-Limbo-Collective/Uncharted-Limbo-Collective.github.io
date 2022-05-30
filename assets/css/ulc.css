@@ -160,14 +160,14 @@ white-space: nowrap; }
 
 @media only screen and (max-width: 600px) 
 {
-    .page-title{
-        font-size: 1em !important;
+    .navbar-brand{
+        font-size: 0.9em !important;
     }
 } 
 
 @media only screen and (min-width: 600px) 
 {
-    .page-title{
+    .navbar-brand{
         font-size: 1.25em !important;
     }
 } 
@@ -188,4 +188,8 @@ a.bg-primary:focus, a.bg-primary:hover, button.bg-primary:focus, button.bg-prima
 
   .navbar-toggler:focus {
     box-shadow: 0 0 0 0;
+  }
+  
+  body {
+    overflow-x: hidde !important; /* Hide horizontal scrollbar */
   }
