@@ -197,6 +197,13 @@ a.bg-primary:focus, a.bg-primary:hover, button.bg-primary:focus, button.bg-prima
     box-shadow: 0 0 0 0;
   }
 
+.navbar
+{
+    width: 100vw !important;
+    margin-left: 0px  !important;
+    margin-right: 0px  !important;
+}
+
   body {
     overflow: hidden;
     overflow-y: auto;
