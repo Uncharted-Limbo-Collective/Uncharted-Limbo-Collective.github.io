@@ -13,54 +13,61 @@
     <!-- Favicon-->
     <link rel="icon" type="image/x-icon" href="assets/img/ulc_logo_favicon_32px.png" />
 
-    <!-- Font Awesome icons (free version)-->
-    <script src="https://kit.fontawesome.com/6243eddf54.js" crossorigin="anonymous"></script>
-
-
     <!-- Add icon library -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
     <!-- Google fonts-->
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;200;300;400&family=Work+Sans:wght@200;300;400&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
     <!-- Core theme CSS (includes Bootstrap)-->
-    <link href="css/styles.css" rel="stylesheet" />
-    <link href="css/ulc.css" rel="stylesheet" />
+    <link href="assets/css/styles.css" rel="stylesheet" />
+    <link href="assets/css/ulc.css" rel="stylesheet" />
+    <link href="assets/css/ulc-qr.css" rel="stylesheet" />
 
 </head>
 
-<body id="page-top" style="background-color: black; ">
-
-    <div style="margin-top:32px; margin-bottom: 32px; padding-bottom:64px; max-width: 512px; height: 100%; margin-left:auto; margin-right:auto; display:block; border:solid 1px rgb(72, 70, 78);border-radius: 24px; overflow:clip;">
-    
+<body>
+    <div class="qr-card">
         <div style="width:100%; height: 256px; display: flex; justify-content: center; flex-direction: column;">
             <img class="cover" src="assets/img/ulc-banner.png" alt="">
-            <svg style="margin-top:16px; height:20%; margin-left:auto; margin-right:auto; display:block;"
+            <svg class="logo"
                 xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
                 <path fill="#ffffff"
                     d="M412.305,122.091h.006a74.758,74.758,0,1,0-149.515,0h0V308.359h0a33.981,33.981,0,0,0,67.961,0h0V122.091h0a6.8,6.8,0,0,1,13.593,0h.006V308.356h-.006a88.349,88.349,0,0,1-176.7.122V122.091h0a6.8,6.8,0,0,1,13.59-.024V308.374a74.734,74.734,0,0,0,135.9,42.967,46.931,46.931,0,0,1-20.365,4.6A47.584,47.584,0,0,1,249.2,308.374V121.379h-.018a74.75,74.75,0,0,0-149.5.712h0V308.356h0v.715H99.7a156.307,156.307,0,0,0,312.613-.715h-.006Z" />
             </svg>
         </div>
-    
-        <div class="ulc-text"
-            style="margin-bottom:64px; display: flex; justify-content: center; flex-direction: column; text-align: center;">
-            <p style="font-size: 24px; font-weight:600">We are Uncharted Limbo</p>
-            <p style="font-size:14px; font-weight:200">A Creative Coding & New Media studio <br> based in London</p>
-        </div>
-    
-        <div class="ulc-text" style="display: flex; justify-content: center; flex-direction: column; text-align: center;">
-            <p style="margin-bottom:32px; font-size: 16px; font-weight:600"><a href="https://www.uncharted-limbo.com">Browse
-                    our work</a> </p>
-            <p style="margin-bottom:32px; font-size: 16px; font-weight:600"><a
-                    href="https://www.instagram.com/ulcollective">Follow us</a></p>
-            <p style="margin-bottom:32px; font-size: 16px; font-weight:600"><a
-                    href="https://www.youtube.com/channel/UCROcy7FhmCTaBFduHwwTBTA">See our videos</a></p>
-            <p style="margin-bottom:32px; font-size: 16px; font-weight:600"><a
-                    href="https://www.linkedin.com/company/uncharted-limbo-collective">Join our network</a></p>
+
+        <div style="margin:0px 40px 32px 40px;">
+            <div class="ulc-text"
+                style="display: flex; justify-content: center; flex-direction: column; text-align: center;">
+                <p style="font-size: 20px; font-weight:600">We are Uncharted Limbo</p>
+                <p style="font-size:13px; font-weight:200">A Creative Coding & New Media <br>collective based in London</p>
+            </div>
+
+            <div class="qr-link-list">
+                <p
+                    class="qr-link">
+                    <i class="fa fa-globe" aria-hidden="true"></i>
+                    <a href="https://www.uncharted-limbo.com">Browse our work</a>
+                </p>
+                <p
+                    class="qr-link">
+                    <i class="fa fa-instagram" aria-hidden="true"></i>
+                    <a href="https://www.instagram.com/ulcollective">Follow us</a>
+                </p>
+                <p
+                    class="qr-link">
+                    <i class="fa fa-youtube-play" aria-hidden="true"></i>
+                    <a href="https://www.youtube.com/channel/UCROcy7FhmCTaBFduHwwTBTA">Watch our videos</a>
+                </p>
+                <p
+                    class="qr-link">
+                    <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+                    <a href="https://www.linkedin.com/company/uncharted-limbo-collective">Join our network</a>
+                </p>
+            </div>
         </div>
     </div>
 
