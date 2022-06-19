@@ -1,0 +1,73 @@
+.ulc-text
+{
+    font-family: 'Roboto Mono', monospace;
+    color: #fff;
+}
+
+.cover {
+    object-fit: cover;
+    width: 100%;
+   height: 80%;
+  }
+
+  
+a
+{
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+a:link {color: #FFFFFF}
+a:visited {color: #FFFFFF}
+a:hover {color: #383838 }
+a:active {color: #383838 }
+
+.qr-link
+{
+    font-family: 'Roboto Mono', monospace;
+    color: #fff;
+   display: flex; 
+   width: 180px; 
+   align-items: center;
+   gap: 12px;
+}
+
+.qr-link-list
+{
+    margin:0 20% 0 20%; 
+    display: flex; 
+    justify-content: center; 
+    flex-direction: column;
+    gap:24px;
+}
+
+.qr-card
+{
+    background-color: #0f0f11;  
+    max-width: 375px; 
+    height: 100%; 
+    margin:16px auto 16px auto; 
+    display:block; 
+    border:solid 1px rgb(72, 70, 78);
+    border-radius: 16px;
+     overflow:clip;
+}
+
+body
+{
+   background-color: #09090b;
+}
+
+.logo
+{
+    margin-top: 12px;
+    margin-bottom: 12px;
+    height: 18%;
+    margin-left:
+    auto;
+    margin-right:
+    auto;
+    display:
+    block;
+}
