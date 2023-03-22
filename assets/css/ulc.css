@@ -244,3 +244,7 @@ a.bg-primary:focus, a.bg-primary:hover, button.bg-primary:focus, button.bg-prima
 .item{
     border: 1px solid black;
 }
+
+.section{
+    padding: 3.3rem 0;
+}
