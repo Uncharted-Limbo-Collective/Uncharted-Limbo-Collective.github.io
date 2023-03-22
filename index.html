@@ -21,8 +21,9 @@
     <script src="https://kit.fontawesome.com/6243eddf54.js" crossorigin="anonymous"></script>
 
     <!-- Add icon library -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+    <script src="https://kit.fontawesome.com/4c2c3677a4.js" crossorigin="anonymous"></script>
+    <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">-->
 
     <!-- Google fonts-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -49,19 +50,20 @@
     * NAV BAR
     ======================================================== -->
     <nav class="navbar navbar-expand-lg bg-secondary text-capitalize fixed-top" id="mainNav">
-      <div class="container" >
 
-        <div>
+      <div  class="container" >
+
+        <div  style="display: flex; flex-direction: row;">
           <!-- NAVBAR LOGO ======================================================== -->
           <a href="index.html"><img src="assets/img/Official Logo 02_main_logo.svg" height="48px"/></a>
 
           <!-- NAVBAR TITLE======================================================== -->
-          <a style="margin-left: 20px;" class="navbar-brand js-scroll-trigger vertical-center" href="index.html">Uncharted Limbo Collective</a>
+          <a class="navbar-brand js-scroll-trigger" href="index.html">Uncharted Limbo Collective</a>
         </div>
 
         <!--  NAVBAR TOGGLER BUTTON ======================================================== -->
         <button class="navbar-toggler navbar-toggler-right text-uppercase bg-primary text-black-50" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-        <i class="fas fa-bars"></i>
+        <i class="fa-solid fa-bars"></i>
         </button>
 
         <!--  NAVBAR CATEGORIES ======================================================== -->
@@ -72,11 +74,11 @@
             
               <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="index.html#play">Play</a></li>
             
-              <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="index.html#collaborators">Collaborators</a></li>
-            
               <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="index.html#about">About</a></li>
             
-              <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="index.html#contact">Contact</a></li>
+              <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="index.html#collaborators">Collaborators</a></li>
+            
+              <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="mailto:info@uncharted-limbo.com">Talk to us!</a></li>
             
           </ul>
         </div>
@@ -101,22 +103,22 @@
 
             <!-- INSTAGRAM  ======================================================== -->
             <a style="color: white; font-size: large;" href="https://www.instagram.com/ulcollective" >
-              <i class="fa fa-instagram fa-2" aria-hidden="true"></i>
+              <i class="fa-brands fa-instagram" aria-hidden="true"></i>
             </a>
 
             <!-- YOUTUBE  ======================================================== -->
             <a style="color: white; font-size: large;" href="https://www.youtube.com/@uncharted-limbo" >
-              <i class="fa fa-youtube-play fa-2" aria-hidden="true"></i>
+              <i class="fa-brands fa-youtube" aria-hidden="true"></i>
             </a>
 
             <!-- LINKEDIN  ======================================================== -->
             <a style="color: white; font-size: large;" href="https://www.linkedin.com/company/uncharted-limbo-collective">
-              <i class="fa fa-linkedin-square fa-2" aria-hidden="true"></i>
+              <i class="fa-brands fa-linkedin" aria-hidden="true"></i>
             </a>
 
             <!-- TWITTER  ======================================================== -->
             <a style="color: white; font-size: large;" href="https://twitter.com/Uncharted_Limbo">
-              <i class="fa fa-twitter-square fa-2" aria-hidden="true"></i>
+              <i class="fa-brands fa-twitter" aria-hidden="true"></i>
             </a>
 
           </div>
@@ -140,23 +142,40 @@
         <!-- FILTERING BUTTONS ======================================================== -->
         <div class="row mb-5 ">
           <!-- Masthead-->
-          <div class="col-md-12 col-lg-12 text-center" data-aos="fade-up" data-aos-delay="100">
+          <div class="col-md-12 col-lg-12 text-center" style="font-size:1rem" data-aos="fade-up" data-aos-delay="100">
             <div id="filters" class="filters">
               <a href="#" data-filter="*" class="active">All</a>
-              <a href="#" data-filter=".performance">Performance</a>
-              <a href="#" data-filter=".film">Film</a>
-              <a href="#" data-filter=".vr-ar">VR-AR</a>
+              
+              <a href="#" data-filter=".sculpture">Sculpture</a>
+              
+              <a href="#" data-filter=".vr-ar">Vr-Ar</a>
+              
               <a href="#" data-filter=".branding">Branding</a>
-           <!--   <a href="#" data-filter=".installation">Installation</a> -->
+              
+              <a href="#" data-filter=".film">Film</a>
+              
+              <a href="#" data-filter=".performance">Performance</a>
+              
             </div>
           </div>
         </div>
 
         <!-- PROJECT THUMBNAILS ======================================================== -->
         <div id="portfolio-grid" class="row no-gutter" data-aos="fade-up" data-aos-delay="200">
+          <!-- -------------- THIS SEGMENT WAS AUTOMATICALLY GENERATED BY A SCRIPT --------------  -->
           
-
-            <!-- -------------- THIS SEGMENT WAS AUTOMATICALLY GENERATED BY A SCRIPT --------------  -->
+            <!-- -------------- PvNP --------------  -->
+            <div class="item sculpture col-sm-6 col-md-4 col-lg-4 mb-4">
+              <a href="pvnp.html" class="item-wrap fancybox">
+                <div class="work-info">
+                  <h3>PvNP</h3>
+                  <span>Sculpture</span>
+                </div>
+                <img class="img-fluid" src="assets/img/Projects/pvnp/pvnp_thumbnail.webp">
+              </a>
+            </div>
+            <!-- ----------------------------------------------------------------------------------  -->
+          
             <!-- -------------- Anti-Body --------------  -->
             <div class="item performance col-sm-6 col-md-4 col-lg-4 mb-4">
               <a href="antibody.html" class="item-wrap fancybox">
@@ -164,14 +183,11 @@
                   <h3>Anti-Body</h3>
                   <span>Performance</span>
                 </div>
-                <img class="img-fluid" src="https://github.com/Uncharted-Limbo-Collective/Uncharted-Limbo-Collective.github.io/raw/testing/assets/img/Projects/thumbnails/ANT_hero_medium_square.jpg">
+                <img class="img-fluid" src="assets/img/Projects/antibody/antibody_thumbnail.webp">
               </a>
             </div>
             <!-- ----------------------------------------------------------------------------------  -->
-
           
-
-            <!-- -------------- THIS SEGMENT WAS AUTOMATICALLY GENERATED BY A SCRIPT --------------  -->
             <!-- -------------- Opto-Nano --------------  -->
             <div class="item performance col-sm-6 col-md-4 col-lg-4 mb-4">
               <a href="opto-nano.html" class="item-wrap fancybox">
@@ -179,14 +195,23 @@
                   <h3>Opto-Nano</h3>
                   <span>Performance</span>
                 </div>
-                <img class="img-fluid" src="https://github.com/Uncharted-Limbo-Collective/Uncharted-Limbo-Collective.github.io/raw/new-template/assets/img/Projects/thumbnails/opto_nano.jpg">
+                <img class="img-fluid" src="assets/img/Projects/opto-nano/opto-nano_thumbnail.webp">
               </a>
             </div>
             <!-- ----------------------------------------------------------------------------------  -->
-
           
-
-            <!-- -------------- THIS SEGMENT WAS AUTOMATICALLY GENERATED BY A SCRIPT --------------  -->
+            <!-- -------------- Inhibition --------------  -->
+            <div class="item vr-ar col-sm-6 col-md-4 col-lg-4 mb-4">
+              <a href="inhibition.html" class="item-wrap fancybox">
+                <div class="work-info">
+                  <h3>Inhibition</h3>
+                  <span>VR-AR</span>
+                </div>
+                <img class="img-fluid" src="assets/img/Projects/inhibition/inhibition_thumbnail.webp">
+              </a>
+            </div>
+            <!-- ----------------------------------------------------------------------------------  -->
+          
             <!-- -------------- Chaotic Body II --------------  -->
             <div class="item film col-sm-6 col-md-4 col-lg-4 mb-4">
               <a href="chaotic-body-2.html" class="item-wrap fancybox">
@@ -194,14 +219,35 @@
                   <h3>Chaotic Body II</h3>
                   <span>Film</span>
                 </div>
-                <img class="img-fluid" src="https://github.com/Uncharted-Limbo-Collective/Uncharted-Limbo-Collective.github.io/raw/new-template/assets/img/Projects/thumbnails/CB2_hero-square.jpg">
+                <img class="img-fluid" src="assets/img/Projects/chaotic-body-2/chaotic-body-2_thumbnail.webp">
               </a>
             </div>
             <!-- ----------------------------------------------------------------------------------  -->
-
           
-
-            <!-- -------------- THIS SEGMENT WAS AUTOMATICALLY GENERATED BY A SCRIPT --------------  -->
+            <!-- -------------- Leach Branding --------------  -->
+            <div class="item branding col-sm-6 col-md-4 col-lg-4 mb-4">
+              <a href="leach.html" class="item-wrap fancybox">
+                <div class="work-info">
+                  <h3>Leach Branding</h3>
+                  <span>Branding</span>
+                </div>
+                <img class="img-fluid" src="assets/img/Projects/leach/leach_thumbnail.webp">
+              </a>
+            </div>
+            <!-- ----------------------------------------------------------------------------------  -->
+          
+            <!-- -------------- LCFMA21 --------------  -->
+            <div class="item film col-sm-6 col-md-4 col-lg-4 mb-4">
+              <a href="lcf.html" class="item-wrap fancybox">
+                <div class="work-info">
+                  <h3>LCFMA21</h3>
+                  <span>Film</span>
+                </div>
+                <img class="img-fluid" src="assets/img/Projects/lcf/lcf_thumbnail.webp">
+              </a>
+            </div>
+            <!-- ----------------------------------------------------------------------------------  -->
+          
             <!-- -------------- The Butterfly Effect --------------  -->
             <div class="item performance col-sm-6 col-md-4 col-lg-4 mb-4">
               <a href="butterfly.html" class="item-wrap fancybox">
@@ -209,14 +255,11 @@
                   <h3>The Butterfly Effect</h3>
                   <span>Performance</span>
                 </div>
-                <img class="img-fluid" src="https://github.com/Uncharted-Limbo-Collective/Uncharted-Limbo-Collective.github.io/raw/new-template/assets/img/Projects/thumbnails/horizonte.jpg">
+                <img class="img-fluid" src="assets/img/Projects/butterfly/butterfly_thumbnail.webp">
               </a>
             </div>
             <!-- ----------------------------------------------------------------------------------  -->
-
           
-
-            <!-- -------------- THIS SEGMENT WAS AUTOMATICALLY GENERATED BY A SCRIPT --------------  -->
             <!-- -------------- Chaotic Body I --------------  -->
             <div class="item film col-sm-6 col-md-4 col-lg-4 mb-4">
               <a href="chaotic-body-1.html" class="item-wrap fancybox">
@@ -224,11 +267,10 @@
                   <h3>Chaotic Body I</h3>
                   <span>Film</span>
                 </div>
-                <img class="img-fluid" src="https://github.com/Uncharted-Limbo-Collective/Uncharted-Limbo-Collective.github.io/raw/new-template/assets/img/Projects/thumbnails/CB1_hero_medium-square.jpg">
+                <img class="img-fluid" src="assets/img/Projects/chaotic-body-1/chaotic-body-1_thumbnail.webp">
               </a>
             </div>
             <!-- ----------------------------------------------------------------------------------  -->
-
           
         <!-- -------------- NO MORE PROJECTS BELOW THIS LINE --------------  -->
         </div>
@@ -250,37 +292,208 @@
         </div>
 
         <div id="portfolio-grid" class="row no-gutter" data-aos="fade-up" data-aos-delay="200">
+         <!-- -------------- THIS SEGMENT WAS AUTOMATICALLY GENERATED BY A SCRIPT --------------  -->
+
           
+              <!-- -------------- Caustic Dance --------------  -->
+              <div class="item film col-sm-6 col-md-4 col-lg-2 mb-4">
+                <a href="https://www.instagram.com/p/CE7Rg_kHYGS/"  target="_blank" class="item-wrap fancybox">
+                  <div class="work-info">
+                    <h3>Caustic Dance</h3>
+                    <span>Play</span>
+                  </div>
+                  <img class="img-fluid" src="https://uncharted-limbo.com/assets/img/experiments/thumbnails/caustics-dance-02.webp">
+                </a>
+              </div>
+          
+              <!-- -------------- Digital Body 03 --------------  -->
+              <div class="item film col-sm-6 col-md-4 col-lg-2 mb-4">
+                <a href="https://www.instagram.com/p/CDWral3n587/"  target="_blank" class="item-wrap fancybox">
+                  <div class="work-info">
+                    <h3>Digital Body 03</h3>
+                    <span>Play</span>
+                  </div>
+                  <img class="img-fluid" src="https://uncharted-limbo.com/assets/img/experiments/thumbnails/digital-body-03.webp">
+                </a>
+              </div>
+          
+              <!-- -------------- Curve Growth --------------  -->
+              <div class="item film col-sm-6 col-md-4 col-lg-2 mb-4">
+                <a href="https://www.instagram.com/p/B-UO2vUHjlB/"  target="_blank" class="item-wrap fancybox">
+                  <div class="work-info">
+                    <h3>Curve Growth</h3>
+                    <span>Play</span>
+                  </div>
+                  <img class="img-fluid" src="https://uncharted-limbo.com/assets/img/experiments/thumbnails/diff_growth.webp">
+                </a>
+              </div>
+          
+              <!-- -------------- Chop-Chop --------------  -->
+              <div class="item film col-sm-6 col-md-4 col-lg-2 mb-4">
+                <a href="https://www.instagram.com/p/B14Rmt9I6HO/"  target="_blank" class="item-wrap fancybox">
+                  <div class="work-info">
+                    <h3>Chop-Chop</h3>
+                    <span>Play</span>
+                  </div>
+                  <img class="img-fluid" src="https://uncharted-limbo.com/assets/img/experiments/thumbnails/chop-chop.webp">
+                </a>
+              </div>
+          
+              <!-- -------------- Deep Bass Blobs --------------  -->
+              <div class="item film col-sm-6 col-md-4 col-lg-2 mb-4">
+                <a href="https://www.instagram.com/p/B7yGBGDn6Aw/"  target="_blank" class="item-wrap fancybox">
+                  <div class="work-info">
+                    <h3>Deep Bass Blobs</h3>
+                    <span>Play</span>
+                  </div>
+                  <img class="img-fluid" src="https://uncharted-limbo.com/assets/img/experiments/thumbnails/bass-blobs.webp">
+                </a>
+              </div>
+          
+              <!-- -------------- Liquid Tech --------------  -->
+              <div class="item film col-sm-6 col-md-4 col-lg-2 mb-4">
+                <a href="https://www.instagram.com/p/COGzzeuHfiW/"  target="_blank" class="item-wrap fancybox">
+                  <div class="work-info">
+                    <h3>Liquid Tech</h3>
+                    <span>Play</span>
+                  </div>
+                  <img class="img-fluid" src="https://uncharted-limbo.com/assets/img/experiments/thumbnails/liquid_tech.webp">
+                </a>
+              </div>
+          
+              <!-- -------------- Meandering River --------------  -->
+              <div class="item film col-sm-6 col-md-4 col-lg-2 mb-4">
+                <a href="https://www.instagram.com/p/CQZSu9UnEQm/"  target="_blank" class="item-wrap fancybox">
+                  <div class="work-info">
+                    <h3>Meandering River</h3>
+                    <span>Play</span>
+                  </div>
+                  <img class="img-fluid" src="https://uncharted-limbo.com/assets/img/experiments/thumbnails/meander.webp">
+                </a>
+              </div>
+          
+              <!-- -------------- FireFlyers --------------  -->
+              <div class="item film col-sm-6 col-md-4 col-lg-2 mb-4">
+                <a href="https://eleanapol.github.io/fireflyers.html"  target="_blank" class="item-wrap fancybox">
+                  <div class="work-info">
+                    <h3>FireFlyers</h3>
+                    <span>Play</span>
+                  </div>
+                  <img class="img-fluid" src="https://uncharted-limbo.com/assets/img/experiments/thumbnails/fireflyers.webp">
+                </a>
+              </div>
+          
+              <!-- -------------- Melting the Masters #2 --------------  -->
+              <div class="item film col-sm-6 col-md-4 col-lg-2 mb-4">
+                <a href="https://www.instagram.com/p/CEMcotwHRjC/"  target="_blank" class="item-wrap fancybox">
+                  <div class="work-info">
+                    <h3>Melting the Masters #2</h3>
+                    <span>Play</span>
+                  </div>
+                  <img class="img-fluid" src="https://raw.githubusercontent.com/Uncharted-Limbo-Collective/Uncharted-Limbo-Collective.github.io/new-template/assets/img/experiments/thumbnails/melting-the-masters.webp">
+                </a>
+              </div>
+          
+              <!-- -------------- Smooth Cellular Automata --------------  -->
+              <div class="item film col-sm-6 col-md-4 col-lg-2 mb-4">
+                <a href="https://vimeo.com/350475052/"  target="_blank" class="item-wrap fancybox">
+                  <div class="work-info">
+                    <h3>Smooth Cellular Automata</h3>
+                    <span>Play</span>
+                  </div>
+                  <img class="img-fluid" src="https://raw.githubusercontent.com/Uncharted-Limbo-Collective/Uncharted-Limbo-Collective.github.io/new-template/assets/img/experiments/thumbnails/smooth_ca.webp">
+                </a>
+              </div>
+          
+              <!-- -------------- Blindfolded in VR --------------  -->
+              <div class="item film col-sm-6 col-md-4 col-lg-2 mb-4">
+                <a href="https://vimeo.com/422744682/"  target="_blank" class="item-wrap fancybox">
+                  <div class="work-info">
+                    <h3>Blindfolded in VR</h3>
+                    <span>Play</span>
+                  </div>
+                  <img class="img-fluid" src="https://raw.githubusercontent.com/Uncharted-Limbo-Collective/Uncharted-Limbo-Collective.github.io/new-template/assets/img/experiments/thumbnails/blindfolded.webp">
+                </a>
+              </div>
+          
+              <!-- -------------- Acrophobia --------------  -->
+              <div class="item film col-sm-6 col-md-4 col-lg-2 mb-4">
+                <a href="https://vimeo.com/207716493/"  target="_blank" class="item-wrap fancybox">
+                  <div class="work-info">
+                    <h3>Acrophobia</h3>
+                    <span>Play</span>
+                  </div>
+                  <img class="img-fluid" src="https://raw.githubusercontent.com/Uncharted-Limbo-Collective/Uncharted-Limbo-Collective.github.io/new-template/assets/img/experiments/thumbnails/acrophobia.webp">
+                </a>
+              </div>
+          
+              <!-- -------------- Reaction Diffusion --------------  -->
+              <div class="item film col-sm-6 col-md-4 col-lg-2 mb-4">
+                <a href="https://vimeo.com/419063601"  target="_blank" class="item-wrap fancybox">
+                  <div class="work-info">
+                    <h3>Reaction Diffusion</h3>
+                    <span>Play</span>
+                  </div>
+                  <img class="img-fluid" src="https://raw.githubusercontent.com/Uncharted-Limbo-Collective/Uncharted-Limbo-Collective.github.io/new-template/assets/img/experiments/thumbnails/eleana_reaction-diffusion.webp">
+                </a>
+              </div>
+          
+              <!-- -------------- SLoV #12 --------------  -->
+              <div class="item film col-sm-6 col-md-4 col-lg-2 mb-4">
+                <a href="https://vimeo.com/243477829"  target="_blank" class="item-wrap fancybox">
+                  <div class="work-info">
+                    <h3>SLoV #12</h3>
+                    <span>Play</span>
+                  </div>
+                  <img class="img-fluid" src="https://raw.githubusercontent.com/Uncharted-Limbo-Collective/Uncharted-Limbo-Collective.github.io/new-template/assets/img/experiments/thumbnails/slov-12.webp">
+                </a>
+              </div>
+          
+              <!-- -------------- SLoV #16 --------------  -->
+              <div class="item film col-sm-6 col-md-4 col-lg-2 mb-4">
+                <a href="https://vimeo.com/328643073"  target="_blank" class="item-wrap fancybox">
+                  <div class="work-info">
+                    <h3>SLoV #16</h3>
+                    <span>Play</span>
+                  </div>
+                  <img class="img-fluid" src="https://raw.githubusercontent.com/Uncharted-Limbo-Collective/Uncharted-Limbo-Collective.github.io/new-template/assets/img/experiments/thumbnails/slov-16.webp">
+                </a>
+              </div>
+          
+              <!-- -------------- Physarum --------------  -->
               <div class="item film col-sm-6 col-md-4 col-lg-2 mb-4">
                 <a href="https://www.instagram.com/p/CdDuh3cglu2/"  target="_blank" class="item-wrap fancybox">
                   <div class="work-info">
                     <h3>Physarum</h3>
                     <span>Play</span>
                   </div>
-                  <img class="img-fluid" src="https://github.com/Uncharted-Limbo-Collective/Uncharted-Limbo-Collective.github.io/raw/testing/assets/img/experiments/thumbnails/physarum.jpg">
+                  <img class="img-fluid" src="https://uncharted-limbo.com/assets/img/experiments/thumbnails/physarum.webp">
                 </a>
               </div>
           
+              <!-- -------------- Matic --------------  -->
               <div class="item film col-sm-6 col-md-4 col-lg-2 mb-4">
                 <a href="https://www.youtube.com/watch?v=oFYG_hhPSOU"  target="_blank" class="item-wrap fancybox">
                   <div class="work-info">
                     <h3>Matic</h3>
                     <span>Play</span>
                   </div>
-                  <img class="img-fluid" src="https://github.com/Uncharted-Limbo-Collective/Uncharted-Limbo-Collective.github.io/raw/testing/assets/img/experiments/thumbnails/matic.jpg">
+                  <img class="img-fluid" src="https://raw.githubusercontent.com/Uncharted-Limbo-Collective/Uncharted-Limbo-Collective.github.io/new-template/assets/img/experiments/thumbnails/matic.webp">
                 </a>
               </div>
           
+              <!-- -------------- Reactive Ink --------------  -->
               <div class="item film col-sm-6 col-md-4 col-lg-2 mb-4">
                 <a href="None"  target="_blank" class="item-wrap fancybox">
                   <div class="work-info">
                     <h3>Reactive Ink</h3>
                     <span>Play</span>
                   </div>
-                  <img class="img-fluid" src="https://github.com/Uncharted-Limbo-Collective/Uncharted-Limbo-Collective.github.io/raw/testing/assets/img/experiments/thumbnails/window_invert.jpg">
+                  <img class="img-fluid" src="https://uncharted-limbo.com/assets/img/experiments/thumbnails/window_invert.webp">
                 </a>
               </div>
           
+
         </div>
       </div>
     </section>
@@ -312,63 +525,90 @@
 
           <div class="container">
               <div class="row text-center" style="display: flex; justify-content: space-evenly">
-                  <!-- Team item -->
-                  <div class="col-xl-2 col-sm-6 mb-5">
-                      <div class="bg-black rounded py-5"><img src="assets/img/faces/george-crop-bw.jpg" alt="" width="120" height="120" class="img-fluid rounded-circle mb-3 img-thumbnail ">
+
+                <!-- -------------- THIS SEGMENT WAS AUTOMATICALLY GENERATED BY A SCRIPT --------------  -->
+                
+
+                <!-- -------------- George Adamopoulos --------------  -->
+                <div class="col-xl-2 col-sm-6 mb-5">
+                      <div class="bg-black rounded py-5"><img src="https://uncharted-limbo.com/assets/img/faces/george-crop-bw.webp" alt="" width="120" height="120" class="img-fluid rounded-circle mb-3 img-thumbnail ">
                           <h5 class="mb-0">George<br>Adamopoulos</h5><span class="small text-uppercase text-muted">Voxel Whisperer</span>
                           <ul class="social mb-0 list-inline mt-3">
-                              <li class="list-inline-item"><a href="https://www.instagram.com/georgeadamon/" class="social-link"><i class="fab fa-instagram"></i></a></li>
-                              <li class="list-inline-item"><a href="https://vimeo.com/user14797235" class="social-link"><i class="fab fa-vimeo"></i></a></li>
-                              <li class="list-inline-item"><a href="https://github.com/GeorgeAdamon/" class="social-link"> <i class="fab fa-github"></i> </a> </li>
-                              <li class="list-inline-item"><a href="https://www.linkedin.com/in/george-adamon/" class="social-link"><i class="fab fa-linkedin"></i></a></li>
+                              
+                              <li class="list-inline-item"><a href="https://www.instagram.com/georgeadamon/" class="social-link"><i class="fa-brands fa-instagram"></i></a></li>
+                              
+                              
+                              <li class="list-inline-item"><a href="https://vimeo.com/user14797235" class="social-link"><i class="fa-brands fa-vimeo"></i></a></li>
+                              
+                              
+                              <li class="list-inline-item"><a href="https://github.com/GeorgeAdamon/" class="social-link"> <i class="fa-brands fa-github"></i> </a> </li>
+                              
+                              
+                              <li class="list-inline-item"><a href="https://www.linkedin.com/in/george-adamon/" class="social-link"><i class="fa-brands fa-linkedin"></i></a></li>
+                              
                           </ul>
                       </div>
-                  </div><!-- End -->
+                  </div>
+                
 
-                  <!-- Team item -->
-                  <div class="col-xl-2 col-sm-6 mb-5">
-                      <div class="bg-black rounded py-5"><img src="assets/img/faces/chris-crop-bw.jpeg" alt="" width="120" height="120" class="img-fluid rounded-circle mb-3 img-thumbnail ">
-                          <h5 class="mb-0" >Chris<br>Waters</h5><span class="small text-uppercase text-muted">Visual Visionary</span>
+                <!-- -------------- Chris Waters --------------  -->
+                <div class="col-xl-2 col-sm-6 mb-5">
+                      <div class="bg-black rounded py-5"><img src="https://uncharted-limbo.com/assets/img/faces/chris-crop-bw.webp" alt="" width="120" height="120" class="img-fluid rounded-circle mb-3 img-thumbnail ">
+                          <h5 class="mb-0">Chris<br>Waters</h5><span class="small text-uppercase text-muted">Visual Visionary</span>
                           <ul class="social mb-0 list-inline mt-3">
-                              <li class="list-inline-item"><a href="https://www.instagram.com/chriswatersfilm/" class="social-link"><i class="fab fa-instagram"></i></a></li>
-                              <li class="list-inline-item"><a href="https://www.linkedin.com/in/chris-waters-7a28b787/" class="social-link"><i class="fab fa-linkedin"></i></a></li>
+                              
+                              <li class="list-inline-item"><a href="https://www.instagram.com/chriswatersfilm/" class="social-link"><i class="fa-brands fa-instagram"></i></a></li>
+                              
+                              
+                              
+                              
+                              <li class="list-inline-item"><a href="https://www.linkedin.com/in/chris-waters-7a28b787/" class="social-link"><i class="fa-brands fa-linkedin"></i></a></li>
+                              
                           </ul>
                       </div>
-                  </div><!-- End -->
+                  </div>
+                
 
-                  <!-- Team item -->
-                  <div class="col-xl-2 col-sm-6 mb-5">
-                      <div class="bg-black rounded py-5"><img src="assets/img/faces/eleana-crop-bw.jpg" alt="" width="120" height="120" class="img-fluid rounded-circle mb-3 img-thumbnail ">
-                          <h5 class="mb-0" >Eleana<br>Polychronaki</h5><span class="small text-uppercase text-muted">Algorithm Charmer</span>
+                <!-- -------------- Eleana Polychronaki --------------  -->
+                <div class="col-xl-2 col-sm-6 mb-5">
+                      <div class="bg-black rounded py-5"><img src="https://uncharted-limbo.com/assets/img/faces/eleana-crop-bw.webp" alt="" width="120" height="120" class="img-fluid rounded-circle mb-3 img-thumbnail ">
+                          <h5 class="mb-0">Eleana<br>Polychronaki</h5><span class="small text-uppercase text-muted">Algorithm Charmer</span>
                           <ul class="social mb-0 list-inline mt-3">
-                              <li class="list-inline-item"><a href="https://www.instagram.com/eleana_pol/" class="social-link"><i class="fab fa-instagram"></i></a></li>
-                              <li class="list-inline-item"><a href="https://vimeo.com/user72804303" class="social-link"><i class="fab fa-vimeo"></i></a></li>
-                              <li class="list-inline-item"><a href=" https://github.com/EleanaPol/" class="social-link"> <i class="fab fa-github"></i> </a> </li>
-                              <li class="list-inline-item"><a href="https://www.linkedin.com/in/eleana-polychronaki-8a1657b2/" class="social-link"><i class="fab fa-linkedin"></i></a></li>
+                              
+                              <li class="list-inline-item"><a href="https://www.instagram.com/eleana_pol/" class="social-link"><i class="fa-brands fa-instagram"></i></a></li>
+                              
+                              
+                              <li class="list-inline-item"><a href="https://vimeo.com/user72804303" class="social-link"><i class="fa-brands fa-vimeo"></i></a></li>
+                              
+                              
+                              <li class="list-inline-item"><a href="https://github.com/EleanaPol/" class="social-link"> <i class="fa-brands fa-github"></i> </a> </li>
+                              
+                              
+                              <li class="list-inline-item"><a href="https://www.linkedin.com/in/eleana-polychronaki-8a1657b2/" class="social-link"><i class="fa-brands fa-linkedin"></i></a></li>
+                              
                           </ul>
                       </div>
-                  </div><!-- End -->
+                  </div>
+                
 
-                  <!-- Team item -->
-                  <div class="col-xl-2 col-sm-6 mb-5">
-                      <div class="bg-black rounded py-5"><img src="assets/img/faces/philip-bw.jpg" alt="" width="120" height="120" class="img-fluid rounded-circle mb-3 img-thumbnail ">
+                <!-- -------------- Philip Pappas --------------  -->
+                <div class="col-xl-2 col-sm-6 mb-5">
+                      <div class="bg-black rounded py-5"><img src="https://uncharted-limbo.com/assets/img/faces/philip-bw.webp" alt="" width="120" height="120" class="img-fluid rounded-circle mb-3 img-thumbnail ">
                           <h5 class="mb-0">Philip<br>Pappas</h5><span class="small text-uppercase text-muted">Procedural Magician</span>
                           <ul class="social mb-0 list-inline mt-3">
-                              <li class="list-inline-item"><a href="https://www.instagram.com/phil.paps/" class="social-link"><i class="fab fa-instagram"></i></a></li>
-                              <li class="list-inline-item"><a href="https://www.linkedin.com/in/philip-pappas-35040272/" class="social-link"><i class="fab fa-linkedin"></i></a></li>
+                              
+                              <li class="list-inline-item"><a href="https://www.instagram.com/phil.paps/" class="social-link"><i class="fa-brands fa-instagram"></i></a></li>
+                              
+                              
+                              
+                              
+                              <li class="list-inline-item"><a href="https://www.linkedin.com/in/philip-pappas-35040272/" class="social-link"><i class="fa-brands fa-linkedin"></i></a></li>
+                              
                           </ul>
                       </div>
-                  </div><!-- End -->
-
-                  <!--<div class="col-xl-2 col-sm-6 mb-5">
-                      <div class="bg-black rounded py-5"><img src="assets/img/faces/alex-crop-bw.png" alt="" width="120" height="120" class="img-fluid rounded-circle mb-3 img-thumbnail ">
-                          <h5 class="mb-0">Alexandra<br>Niaka</h5><span class="small text-uppercase text-muted">Neuromaniac</span>
-                          <ul class="social mb-0 list-inline mt-3">
-                              <li class="list-inline-item"><a href=" https://vimeo.com/alexandraniaka" class="social-link"><i class="fab fa-vimeo"></i></a></li>
-                              <li class="list-inline-item"><a href="https://www.linkedin.com/in/alexandraniaka/" class="social-link"><i class="fab fa-linkedin"></i></a></li>
-                          </ul>
-                      </div>
-                  </div>--><!-- End -->
+                  </div>
+                
+                <!-- End -->
               </div>
           </div>
       </div>
@@ -385,24 +625,40 @@
           </div>
 
         <div class="row ">
-          <div class="col-3 col-sm-22 col-md-33">
-            <a href="https://www.alexanderwhitley.com/"  target="_blank" class="client-logo"><img src="assets/img/collaborators/AWDC_sqaure_small.png" alt="Image" class="img-fluid"></a>
-          </div>
-          <div class="col-3 col-sm-22 col-md-33">
-            <a href="https://www.arts.ac.uk/" target="_blank" class="client-logo"><img src="assets/img/collaborators/ual_square_small.png" alt="Image" class="img-fluid"></a>
-          </div>
-          <div class="col-3 col-sm-22 col-md-33">
-            <a href="https://www.unit9.com/" target="_blank" class="client-logo"><img src="assets/img/collaborators/unit9_smaller.png" alt="Image" class="img-fluid"></a>
-          </div>
-          <div class="col-3 col-sm-22 col-md-33">
-            <img src="assets/img/collaborators/jackPhilp_squre.png" alt="Image" class="img-fluid">
-          </div>
-          <div class="col-3 col-sm-22 col-md-33">
-            <a href="https://www.metstudiodesign.com/" target="_blank" class="client-logo"><img src="assets/img/collaborators/met_square_small.png" alt="Image" class="img-fluid"></a>
-          </div>
-          <div class="col-3 col-sm-22 col-md-33">
-            <a href="https://orproject.com/" target="_blank" class="client-logo"><img src="assets/img/collaborators/OR_small.png" alt="Image" class="img-fluid"></a>
-          </div>
+
+        <!-- -------------- THIS SEGMENT WAS AUTOMATICALLY GENERATED BY A SCRIPT --------------  -->
+         
+            <!-- -------------- Max Cooper --------------  -->
+             <div class="col-2 col-sm-22 col-md-33">
+                <a href="https://maxcooper.net/" target="_blank" class="client-logo"><img src="https://raw.githubusercontent.com/Uncharted-Limbo-Collective/Uncharted-Limbo-Collective.github.io/new-template/assets/img/collaborators/max_cooper.webp" alt="Image" class="img-fluid"></a>
+              </div>
+         
+            <!-- -------------- MET Studio --------------  -->
+             <div class="col-2 col-sm-22 col-md-33">
+                <a href="https://www.metstudiodesign.com/" target="_blank" class="client-logo"><img src="https://uncharted-limbo.com/assets/img/collaborators/met_square_small.webp" alt="Image" class="img-fluid"></a>
+              </div>
+         
+            <!-- -------------- London College of Fashion --------------  -->
+             <div class="col-2 col-sm-22 col-md-33">
+                <a href="https://www.arts.ac.uk/colleges/london-college-of-fashion" target="_blank" class="client-logo"><img src="https://uncharted-limbo.com/assets/img/collaborators/ual_square_small.webp" alt="Image" class="img-fluid"></a>
+              </div>
+         
+            <!-- -------------- Alex Whitley Dance Company --------------  -->
+             <div class="col-2 col-sm-22 col-md-33">
+                <a href="https://www.alexanderwhitley.com/" target="_blank" class="client-logo"><img src="https://uncharted-limbo.com/assets/img/collaborators/AWDC_sqaure_small.webp" alt="Image" class="img-fluid"></a>
+              </div>
+         
+            <!-- -------------- Jack Philp Dance --------------  -->
+             <div class="col-2 col-sm-22 col-md-33">
+                <a href="https://www.jackphilpdance.co.uk/" target="_blank" class="client-logo"><img src="https://uncharted-limbo.com/assets/img/collaborators/jackPhilp_squre.webp" alt="Image" class="img-fluid"></a>
+              </div>
+         
+            <!-- -------------- CultVR Lab --------------  -->
+             <div class="col-2 col-sm-22 col-md-33">
+                <a href="https://www.cultvr.cymru/" target="_blank" class="client-logo"><img src="https://raw.githubusercontent.com/Uncharted-Limbo-Collective/Uncharted-Limbo-Collective.github.io/new-template/assets/img/collaborators/cultvr.webp" alt="Image" class="img-fluid"></a>
+              </div>
+         
+
         </div>
       </div>
     </section><!-- End Collaborators Section -->
