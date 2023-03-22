@@ -46,6 +46,7 @@
     background-color: transparent !important;
     border: 0px none black;
     height: 120px !important;
+    max-width: 120px;
 }
 
 .ulc-project-title
@@ -231,3 +232,11 @@ a.bg-primary:focus, a.bg-primary:hover, button.bg-primary:focus, button.bg-prima
     overflow-y: auto;
     overflow-x: hidden !important; /* Hide horizontal scrollbar */
   }
+
+.img-fluid{
+    width: 100%;
+}
+
+.client-logo{
+    max-width: 256px;
+}
