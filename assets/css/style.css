@@ -38,7 +38,7 @@ h7{
 }
 
 .section {
-  padding: 7rem 0;
+  padding: 6rem 0;
 }
 
 .link-1:hover {
@@ -88,7 +88,7 @@ h7{
 }
 
 .item {
-  border: 2px solid black;
+  border: 1px solid black;
   padding: 0px !important;
   margin: 0px !important;
   /*margin-bottom: 30px;*/
@@ -365,16 +365,24 @@ h7{
 }
 
 .masthead {
-  padding-top: calc(6rem + 74px);
-  padding-bottom: 6rem; }
+  /*padding-top: calc(6rem + 74px);*/
+  /*padding-bottom: 6rem;*/
+}
   .masthead .masthead-heading {
     font-size: 2.75rem;
     line-height: 2.75rem; }
   .masthead .masthead-subheading {
-    font-weight: 300;
+    font-weight: 800;
     font-size: 1.25rem; }
   .masthead .masthead-avatar {
-    width: 25rem; }
+    width: 20rem; }
+
+@media (max-width: 780px){
+
+  .masthead .masthead-subheading{
+    font-size: 1.1rem;
+  }
+}
 
 /* Custom Navbar */
 .custom-navbar {
@@ -395,9 +403,7 @@ h7{
     max-width: 400px;
   }
 }
-.custom-navbar .navbar-brand {
-  font-size: 1.7rem;
-}
+
 
 #mainNav {
   background-color: #000000 !important; 
@@ -407,7 +413,7 @@ h7{
 }
   #mainNav .navbar-brand {
     font-size: 1.25em;
-    transition: font-size 0.3s; 
+    transition: font-size 0.3s;
     font-weight: 800;
     color: white;}
 
@@ -419,6 +425,7 @@ h7{
     #mainNav .navbar-nav > li.nav-item > a.nav-link.active:active, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
       color: #000000 ;
       background: #ffffff; }
+
 #mainNav.navbar-shrink {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem; }

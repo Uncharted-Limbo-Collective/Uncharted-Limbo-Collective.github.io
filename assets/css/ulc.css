@@ -1,25 +1,101 @@
-/* https://www.ankursheel.com/blog/full-width-you-tube-video-embed */
-.video-container-hd{
-    position: relative;
-    width: 100%;
-    padding-bottom: 56.25%;
+/*!* https://www.ankursheel.com/blog/full-width-you-tube-video-embed *!*/
+/*.video-container-hd{*/
+/*    position: relative;*/
+/*    width: 100%;*/
+/*    padding-bottom: 56.25%;*/
+/*}*/
+
+/*!* https://www.ankursheel.com/blog/full-width-you-tube-video-embed *!*/
+/*.video-container-square{*/
+/*    position: relative;*/
+/*    width: 100%;*/
+/*    padding-bottom: 100%;*/
+/*}*/
+
+/*!* https://www.ankursheel.com/blog/full-width-you-tube-video-embed *!*/
+/*.video {*/
+/*    position: absolute;*/
+/*    top: 0;*/
+/*    left: 0;*/
+/*    width: 100%;*/
+/*    height: 100%;*/
+/*    border: 0;*/
+/*}*/
+
+
+:root {
+    --ulc-lite: #b3b3b3;
+    --ulc-gray: #484848;
+    --ulc-bg: black;
+    --ulc-font-xl: 1.2rem;
+    --ulc-font-lg: 1rem;
+    --ulc-font-md: 0.875rem;
+    --ulc-font-sm: 0.8rem;
 }
 
-/* https://www.ankursheel.com/blog/full-width-you-tube-video-embed */
-.video-container-square{
-    position: relative;
-    width: 100%;
-    padding-bottom: 100%;
+body {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: var(--ulc-font-sm) !important;
+    color: var(--ulc-lite);
+    background-color: var(--ulc-bg);
 }
 
-/* https://www.ankursheel.com/blog/full-width-you-tube-video-embed */
-.video {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    border: 0;
+/* ============================= */
+/* NAVBAR SHIT */
+/* ============================= */
+
+/* NAVBAR CONTAINER */
+/* ---------------------------------
+/* Bottom white line */
+.navbar {
+    border-bottom: 1px solid var(--ulc-gray);
+}
+
+/* NAVBAR BRAND */
+/* ---------------------------------
+/* Spacing around logo and title */
+
+/*@font-face {*/
+/*    font-family: 'Proto Mono';*/
+/*    src: url('https://github.com/Uncharted-Limbo-Collective/Uncharted-Limbo-Collective.github.io/raw/new-template/assets/fonts/ProtoMono-SemiBold.ttf') format('truetype');*/
+/*    font-weight: 600;*/
+/*    font-style: normal;*/
+/*    font-display: swap;*/
+/*}*/
+
+
+.navbar-brand {
+    font-family: "JetBrains Mono", sans-serif;
+    margin: 0px 16px 0px 16px;
+}
+
+/* NAVBAR TITLE */
+/* ---------------------------------
+/* Title Font settings */
+.navbar-brand h1 {
+    font-weight: 800;
+    color: white;
+    font-size: var(--ulc-font-xl);
+}
+
+/* Title Size for small screens */
+@media (max-width: 767.98px) {
+    .navbar-brand h1 {
+        font-size: var(--ulc-font-lg);
+    }
+}
+
+.video-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /*height: calc(50vh + 50px); !* adjust to your desired height *!*/
+}
+
+video {
+    object-fit: cover;
+  height: 100vh;
+  width: 100vw;
 }
 
 .social-link {
@@ -46,7 +122,6 @@
     background-color: transparent !important;
     border: 0px none black;
     height: 120px !important;
-    max-width: 120px;
 }
 
 .ulc-project-title
@@ -73,6 +148,7 @@
 
 /* BOOTSTRAP OVERRIDES*/
 .nav-item{
+    font-family: "JetBrains Mono";
   font-size: 1rem;
 }
 
@@ -100,30 +176,20 @@ opacity: 0.5;
 cursor: pointer;
 }
 
-.navbar-brand {
-display: inline-block;
-padding-top: 0.3125rem;
-padding-bottom: 0.3125rem;
-margin-right: 1rem;
-font-size: 1.25rem;
-line-height: inherit;
-white-space: nowrap; }
+/*.navbar-brand {*/
+/*display: inline-block;*/
+/*padding-top: 0.3125rem;*/
+/*padding-bottom: 0.3125rem;*/
+/*margin-right: 1rem;*/
+/*font-size: 1.25rem;*/
+/*line-height: inherit;*/
+/*white-space: nowrap; }*/
 
-.navbar-brand:hover, .navbar-brand:focus {
-    text-decoration: none; }
-  
-.fa-vimeo{
-    color:white
-}
-.fa-linkedin{
-    color:white
-}
-.fa-github{
-    color:white
-}
-.fa-instagram{
-    color:white
-}
+/*.navbar-brand:hover, .navbar-brand:focus {*/
+/*    text-decoration: none; }*/
+/*  */
+
+
 
 .vertical-center {
     margin: 0;
@@ -133,9 +199,15 @@ white-space: nowrap; }
     transform: translateY(-50%);
   }
 
-.lead{
-    color: rgb(122, 122, 122);
-    font-size: 1.1rem  !important;
+/*.lead{*/
+/*    color: rgb(122, 122, 122);*/
+/*    font-size: 1.1rem  !important;*/
+/*}*/
+.lead {
+    text-justify: inter-word;
+    text-align: justify;
+    hyphens: auto;
+    font-size: var(--ulc-font-lg)
 }
 
 .contact-details{
@@ -188,19 +260,19 @@ white-space: nowrap; }
     margin-bottom: auto;
 }
 
-@media only screen and (max-width: 600px) 
+@media only screen and (max-width: 600px)
 {
     .navbar-brand{
-        font-size: 0.9em !important;
+        font-size: 0.9rem !important;
     }
-} 
+}
 
-@media only screen and (min-width: 600px) 
+@media only screen and (min-width: 600px)
 {
     .navbar-brand{
-        font-size: 1.40em !important;
+        font-size: 1.25rem !important;
     }
-} 
+}
 
 .nav-link{
     text-align: center;
@@ -220,31 +292,8 @@ a.bg-primary:focus, a.bg-primary:hover, button.bg-primary:focus, button.bg-prima
     box-shadow: 0 0 0 0;
   }
 
-.navbar
-{
-    width: 100vw !important;
-    margin-left: 0px  !important;
-    margin-right: 0px  !important;
-}
 
-  body {
-    overflow: hidden;
-    overflow-y: auto;
-    overflow-x: hidden !important; /* Hide horizontal scrollbar */
-  }
-
-.img-fluid{
-    width: 100%;
-}
-
-.client-logo{
-    max-width: 256px;
-}
-
-.item{
-    border: 1px solid black;
-}
-
-.section{
-    padding: 3.3rem 0;
+html, body {
+  overflow-x: hidden !important;
+        overflow-y: auto;
 }

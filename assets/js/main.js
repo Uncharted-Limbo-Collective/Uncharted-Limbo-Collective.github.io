@@ -1,3 +1,25 @@
+
+
+window.onload = (event) => { myFunction( event ) };
+
+function myFunction( event )
+{
+  //alert("Screen Width is: " + screen.width);
+
+ let myvid = document.getElementById("hero");
+
+ //# if BIGGER THAN the 800 pixels
+ if ( screen.width >= 1920 ) { myvid.src = "assets/video/ULC_REEL_2023_1080p.mp4"; }
+ else if ( screen.width >= 1280 ) { myvid.src = "assets/video/ULC_REEL_2023_720p.mp4"; }
+ else if ( screen.width <= 1080 ) { myvid.src = "assets/video/ULC_REEL_2023_1080w.mp4"; }
+ //else if ( screen.width <= 720 ) { myvid.src = "assets/video/ULC_REEL_2023_720w.mp4"; }
+
+ //# load URL (for playback)
+ myvid.load();
+
+}
+
+
 /**
 * Template Name: MyPortfolio - v4.7.0
 * Template URL: https://bootstrapmade.com/myportfolio-bootstrap-portfolio-website-template/
