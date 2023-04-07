@@ -402,21 +402,21 @@ height:32px;
   }
 
   .masthead .masthead-avatar {
-    width: 50vw; }
+    width: 35vw; }
 }
 
-@media (max-height: 768px)
+@media (max-height: 768px) and (orientation: landscape)
 {
   .navbar-brand{
     font-size: 1rem !important;
   }
 
   .masthead .masthead-subheading{
-    font-size: 0.9rem;
+    font-size: 1.1rem;
   }
 
   .masthead .masthead-avatar {
-    width: 8rem; }
+    width: 35vh; }
 
   .ulc-masthead
   {
@@ -433,7 +433,8 @@ height:32px;
   }
 }
 
-@media (max-width: 768px){
+@media (max-width: 768px) and (orientation: portrait)
+{
 
   .ulc-masthead
   {
