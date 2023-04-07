@@ -6,7 +6,7 @@ function myFunction( event )
 {
   //alert("Screen Width is: " + screen.width);
 
- let myvid = document.getElementById("hero");
+ let myvid = document.getElementById("bg-video");
 
  //# if BIGGER THAN the 800 pixels
  if ( screen.width >= 1920 ) { myvid.src = "assets/video/ULC_REEL_2023_1080p.mp4"; }
