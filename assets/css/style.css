@@ -402,7 +402,7 @@ height:32px;
   }
 
   .masthead .masthead-avatar {
-    width: 10rem; }
+    width: 50vw; }
 }
 
 @media (max-height: 768px)
