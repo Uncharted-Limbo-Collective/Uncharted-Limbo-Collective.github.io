@@ -377,18 +377,81 @@ h7{
   .masthead .masthead-avatar {
     width: 20rem; }
 
+  .masthead-icons{
+height:32px;
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+        align-items: center;
+        gap:32px;
+        margin-top: 3rem
+}
+
+
+.ulc-masthead
+{
+  position: absolute;
+  margin-top:calc(10vh + 100px)
+}
+
+
 @media (max-width: 780px){
 
   .masthead .masthead-subheading{
-    font-size: 1.1rem;
+    font-size: 1rem;
+  }
+
+  .masthead .masthead-avatar {
+    width: 10rem; }
+}
+
+@media (max-height: 768px)
+{
+  .navbar-brand{
+    font-size: 1rem !important;
+  }
+
+  .masthead .masthead-subheading{
+    font-size: 0.9rem;
+  }
+
+  .masthead .masthead-avatar {
+    width: 8rem; }
+
+  .ulc-masthead
+  {
+     margin-top:calc(10vh + 60px) !important;
+  }
+
+  .masthead-avatar
+  {
+    margin-bottom: 20px !important;
+  }
+
+  .masthead-icons{
+    margin-top: 0;
   }
 }
+
+@media (max-width: 768px){
+
+  .ulc-masthead
+  {
+  margin-top:calc(10vh + 150px) !important;
+  }
+}
+
+
+
+
+
 
 /* Custom Navbar */
 .custom-navbar {
   padding-top: 50px;
   width: 100%;
 }
+
 @media (max-width: 780px) {
   .custom-navbar > .container {
     padding-right: 0;
