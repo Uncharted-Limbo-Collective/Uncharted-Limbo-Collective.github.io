@@ -146,6 +146,16 @@ video {
   hyphens: auto;
 }
 
+@media screen and (max-width: 768px) {
+
+    .ulc-project-summary
+{
+    font-size: 0.8rem;
+          text-align: left;
+  hyphens: auto;
+}
+}
+
 /* BOOTSTRAP OVERRIDES*/
 .nav-item{
     font-family: "JetBrains Mono";
