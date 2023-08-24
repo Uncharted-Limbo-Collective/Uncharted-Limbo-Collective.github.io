@@ -29,7 +29,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
   integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
 
-<!--    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
 
 
     <!-- Template Main CSS File -->
@@ -38,7 +38,8 @@
     <!-- Uncharted Limbo custom CSS File -->
     <link href="assets/css/ulc.css" rel="stylesheet">
 
-    <link href="assets/vendor/bootstrap/icons-purified.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/ol@v7.3.0/dist/ol.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/ol@v7.3.0/ol.css">
 
 </head>
 
@@ -55,8 +56,8 @@
           <a href="index.html"><img src="assets/img/Official Logo 02_main_logo.svg" height="48px"/></a>
 
           <!-- NAVBAR TITLE======================================================== -->
-          <a class="navbar-brand js-scroll-trigger d-none d-sm-block" href="index.html#page-top">Uncharted Limbo Collective</a>
-            <a class="text-light js-scroll-trigger navbar-brand d-sm-none text-truncate text-nowrap" href="index.html#page-top">Uncharted Limbo</a>
+          <a class="navbar-brand js-scroll-trigger d-none d-sm-block" href="index.html">Uncharted Limbo Collective</a>
+            <a class="text-light js-scroll-trigger navbar-brand d-sm-none text-truncate text-nowrap" href="index.html">Uncharted Limbo</a>
 
         </div>
 
@@ -95,13 +96,18 @@
         <!-- =======================================================
     * VIDEO
     ======================================================== -->
-
-        <div class="video-container">
+    <div class="container-lg" style="
+    padding: 0;
+    max-width: 100vw;
+    margin-top: 74px;
+    height: calc(100vh - 64px);
+">
+        <div class="video-container" style="margin-top: -99px">
             <video autoplay muted loop playsinline id="bg-video">
                 <source src="assets/ULC_REEL_2023_1080p.mp4" type="video/mp4">
             </video>
         </div>
-
+    </div>
 
       <div class="container d-flex align-items-center flex-column  ulc-masthead">
 
@@ -868,6 +874,8 @@
 
   <!-- Vendor JS Files -->
   <script src="assets/vendor/aos/aos.js"></script>
+<!--  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>-->
+  <!--<script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>-->
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
@@ -879,6 +887,9 @@
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
   <script src="assets/js/scripts.js"></script>
+
+
+
 
 </body>
 
