@@ -5,18 +5,30 @@ window.onload = (event) => { myFunction( event ) };
 function myFunction( event )
 {
   //alert("Screen Width is: " + screen.width);
+  let myvid = document.getElementById("bg-video");
 
- let myvid = document.getElementById("bg-video");
+  // instantiate it
+  const player = new RxPlayer({
+    videoElement: myvid
+  });
 
- //# if BIGGER THAN the 800 pixels
- if ( screen.width >= 1920 ) { myvid.src = "assets/video/ULC_REEL_2023_1080p.mp4"; }
- else if ( screen.width >= 1280 ) { myvid.src = "assets/video/ULC_REEL_2023_720p.mp4"; }
- else if ( screen.width <= 1080 ) { myvid.src = "assets/video/ULC_REEL_2023_1080w.mp4"; }
- //else if ( screen.width <= 720 ) { myvid.src = "assets/video/ULC_REEL_2023_720w.mp4"; }
+  var url = "";
+  if ( screen.width >= 1920 ) { url = "assets/video/ULC_REEL_2023_1080p.mp4"; }
+  else if ( screen.width >= 1280 ) {url = "assets/video/ULC_REEL_2023_720p.mp4"; }
+  else if ( screen.width <= 1080 ) { url = "assets/video/ULC_REEL_2023_1080w.mp4"; }
+  //else if ( screen.width <= 720 ) { url = "assets/ULC_REEL_2023_720w.mp4"; }
 
- //# load URL (for playback)
- myvid.load();
+  // play a video
+  player.loadVideo({
+    url: url,
+    transport: "directfile",
+    autoPlay: true
+  });
 
+  // myvid.src = url;
+
+  //# load URL (for playback)
+  // myvid.load();
 }
 
 
