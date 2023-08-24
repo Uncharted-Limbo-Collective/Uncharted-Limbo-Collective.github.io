@@ -13,8 +13,8 @@
         target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
         if (target.length) {
           $('html, body').animate({
-            scrollTop: (target.offset().top - 71)
-          }, 1000, "easeInOutExpo");
+            scrollTop: (target.offset().top)
+          }, 'fast');
           return false;
         }
       }
@@ -35,10 +35,6 @@
       $('.navbar-collapse').collapse('hide');
     });
 
-    // Send visitor to instagram
-    $('.icon-instagram').click(function () {
-        location.href = "https://www.instagram.com/ulcollective/?hl=en";
-      });
 
     // Activate scrollspy to add active class to navbar items on scroll
     /*$('body').scrollspy({
@@ -56,6 +52,7 @@
     };
     // Collapse now if page is not at top
     navbarCollapse();
+
     // Collapse the navbar when page is scrolled
     $(window).scroll(navbarCollapse);
 
